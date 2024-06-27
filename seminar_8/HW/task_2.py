@@ -15,3 +15,5 @@ margin_of_error = t_critical * (std_iq / np.sqrt(n))
 confidence_interval = (mean_iq - margin_of_error, mean_iq + margin_of_error)
 
 print(f'Доверительный интервал для среднего IQ: {confidence_interval}')
+
+# Доверительный интервал для среднего IQ: (110.55608365158724, 125.64391634841274)

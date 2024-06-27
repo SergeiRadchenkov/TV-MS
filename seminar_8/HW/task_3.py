@@ -14,3 +14,5 @@ margin_of_error = z_critical * (std_height / np.sqrt(n_height))
 confidence_interval_height = (mean_height - margin_of_error, mean_height + margin_of_error)
 
 print(f'Доверительный интервал для среднего роста: {confidence_interval_height}')
+
+# Доверительный интервал для среднего роста: (172.3140237765397, 176.08597622346028)
